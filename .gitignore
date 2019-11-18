@@ -1,0 +1,7 @@
+# Ignore .idea (Pycharm settings)
+.idea
+
+# Ignore folder
+myFiles/
+
+extra.md
