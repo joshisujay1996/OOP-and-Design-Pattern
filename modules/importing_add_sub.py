@@ -30,6 +30,7 @@ print(add_sub_module.z)
 # Calling the function here like this
 add_sub_module.add_func(10,20)
 
+
 # This is done using this import statement (import add_sub_module as ass)
 ass.add_func(20, 56)
 
@@ -43,6 +44,9 @@ add_func(39, 98)
 product_func(87, 21)
 print(z)
 # main()     can import the main method as well
+# Now importing the class
+my_class = MyClass(100000)
+my_class.print_val()
 
 
 # This path shoudl have the directory where you modules exists in-order for you to import, can do this in pyCharm

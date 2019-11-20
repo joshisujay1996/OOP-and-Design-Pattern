@@ -13,6 +13,14 @@ def product_func(x, y):
     print("product of x and y is {}".format(x*y))
 
 
+class MyClass:
+    def __init__(self, val):
+        self.values1 = val
+
+    def print_val(self):
+        print("The class val is {}".format(self.values1))
+
+
 def main():
     my_var = 21
     print("my var", my_var)
